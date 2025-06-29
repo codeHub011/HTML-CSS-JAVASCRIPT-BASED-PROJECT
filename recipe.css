@@ -1,0 +1,130 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    background: #a8c8dc70;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+#unlist {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: #d7a4a4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#unlist li p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#unlist a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#unlist a:hover {
+    color: #e67b42;
+}
+
+#table12 {
+    margin-top: 30px;
+}
+
+#table12 {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #ff6b6b;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td ul {
+    padding: 0;
+    margin: 0;
+    list-style: square inside;
+}
+
+#foodimg img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#foodimg img:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 10px 15px rgba(183, 101, 101, 0.2);
+}
+
+#para12 {
+    font: bold;
+    font-size: 40px;
+    margin: 20px 0;
+    color: #348fc0;
+    
+}
+
+button {
+    display: block;
+    background: #ff6b6b;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 0 auto 20px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #ff4a4a;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#para{
+    font-size: 40px;
+}
+#infopart{
+    margin-top: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #2b2c2ed6;
+}
+
+
